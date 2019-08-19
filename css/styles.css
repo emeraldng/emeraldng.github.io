@@ -1,0 +1,600 @@
+/* Font Families */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+@font-face {
+    font-family: 'HeloTT';
+    src: url('../fonts/HelloLinnea.woff') format('woff'),
+        url('../fonts/HelloLinnea.ttf') format('truetype');
+
+}
+
+/* div#me, div#tech, div#projects{
+    margin-top: 5%;
+} */
+
+p#hello,
+p#tech_used,
+p#contact_me {
+    font-family: 'HeloTT';
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: 300%;
+    line-height: 2.5;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.tech-tools {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6DBBF7;
+    text-decoration: underline;
+    line-height: 1;
+    letter-spacing: 3px
+}
+
+.left-column {
+    height: 100vh;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8);
+    text-align: center;
+}
+
+.fst-brands> :first-child {
+    margin-bottom: 1%;
+}
+
+p#hello,
+p#tech_used,
+p#contact_me {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p#hello,
+p#tech_used,
+p#contact_me {
+    animation: flow 5s ease-in-out infinite;
+}
+
+@keyframes flow {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.right-column {
+    height: 100vh;
+    background-color: #212529;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#txt-dev {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.txt-avatar {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+/* nav */
+
+#myTab {
+    width: 100%;
+    margin-top: 10%
+}
+
+.nav.nav-tabs {
+    float: left;
+    display: block;
+}
+
+.nav-tabs .nav-link {
+
+    text-align: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+.nav-tabs .nav-link.active {
+    color: white;
+    font-weight: bold;
+    /* text-decoration-line: underline; */
+    background-image: radial-gradient(circle, #b08bd3, #c37bbf, #d16ba5);
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+
+.tab-content>.active {
+    display: block;
+
+    /* min-height: 165px; */
+}
+
+.nav.nav-tabs {
+    float: left;
+    display: block;
+
+    border-bottom: 0;
+
+}
+
+/* nav-end */
+
+/* scroll-bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to top, #86a8e7, #9a9ae1, #b08bd3, #c37bbf, #d16ba5);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #86a8e7, #9a9ae1, #b08bd3, #c37bbf, #d16ba5)
+}
+
+
+.row.brands {
+    justify-content: center;
+}
+
+
+.txt-1,
+.f-fam {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.txt-1.hw {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hides {
+    display: none !important;
+}
+
+
+p#tchs,
+p#projects,
+p#contacts {
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+/* p#hello:hover {
+    color: #BF7EC3;
+} */
+
+/* #me {
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+/* .me-info {
+    padding-bottom: 10%;
+} */
+
+.w100 {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pd-r {
+
+    position: relative;
+}
+
+.pd-r>img {
+    opacity: 0.4;
+    width: 100% !important;
+}
+
+.pd-r>p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 0;
+    line-height: 1.25;
+}
+
+.grid-tch {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.grid-techo {
+    margin-top: 2%;
+}
+
+/* #projects {
+    padding-left: 5%;
+    padding-right: 5%;
+} */
+
+.logo-brand {
+    text-align: center;
+    background-color: #C51230;
+}
+
+.logo-brand>img {
+    width: 70px;
+    height: 40px;
+}
+
+.logo-brand-ck>img{
+    width: 250px;
+    height: 40px;
+}
+
+.logo-brand-rapso{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.logo-brand-ck {
+    text-align: center;
+    background-color: white;
+}
+
+.logo-brand-rapso>img {
+    width: 200px;
+    height: 40px;
+}
+
+/* projects tabs */
+
+
+.cont-guia,
+.description_project {
+    display: none;
+    position: relative;
+    /* z-index: 20; */
+}
+
+#woman-desk:checked~#woman-desk1,
+#project-1:checked~#project1,
+#project-2:checked~#project2,
+#project-3:checked~#project3,
+#project-4:checked~#project4,
+#project-5:checked~#project5 {
+    display: block;
+}
+
+#woman-desk:checked~label[for=woman-desk],
+#project-1:checked~label[for=project-1],
+#project-2:checked~label[for=project-2],
+#project-3:checked~label[for=project-3],
+#project-4:checked~label[for=project-4],
+#project-5:checked~label[for=project-5] {
+    border-bottom: none;
+    position: relative;
+    font-weight: bold;
+    z-index: 30;
+    border-bottom: 2px solid #D4222F;
+    color: #D4222F;
+
+}
+
+
+
+/* switcheo */
+input[name=tabSwitch] {
+    display: none;
+}
+
+.tabLabel,
+.tabMobile,
+.tabProject {
+
+    position: relative;
+
+    cursor: pointer;
+
+    background-color: transparent;
+
+    font-size: 18px;
+    font-family: "FuturaStdBook2", Helvetica, Arial, sans-serif;
+
+
+
+    border-bottom: 2px solid #00174f;
+    color: #00174f;
+    font-weight: bold;
+}
+
+.form-desk,
+.form-mob,
+.projects-repo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+/* end project tabs */
+
+.blacky {
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+}
+
+.w25 {
+    width: 30%;
+
+}
+
+
+.demo {
+    text-decoration: underline;
+    color: #C51230;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+a.demo:hover {
+    text-decoration: underline;
+    color: #C51230;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.contact1,
+.cc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-info {
+    background-color: white;
+}
+
+.card-info>p {
+    color: black;
+    font-family: 'Questrial', sans-serif;
+}
+
+.wrapper-conctact {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-contact {
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration-line: none;
+    font-size: 1.5em;
+    color: #CE6FAC;
+
+}
+
+.twoem {
+    font-size: 2em;
+    margin-right: 4%;
+    color: #6BBEF8;
+}
+
+.tts {
+    color: black;
+    font-size: 4em;
+}
+
+.ttl-projects {
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.wrapper-avatar {
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel-inner{
+        height: 400px;
+    }
+    .f-size {
+        font-size: 10px!important;
+    }
+
+    h2#txt-dev {
+        font-size: 16px;
+    }
+
+    a.ss {
+        font-size: 15px;
+    }
+
+    ul#myTab {
+        padding-right: 0px;
+    }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .f-size {
+        font-size: 14px!important;
+    }
+
+    ul#myTab{
+        height: 10vh;
+    }
+
+    a.ss{
+        line-height: 1;
+    }
+
+    li.nav-item{
+        margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .pd-r {
+
+       padding-bottom: 5%;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    li.nav-item{
+        margin-left: 1%;
+    margin-right: 3%;
+    }
+
+    .f-size {
+        font-size: 10px!important;
+    }
+
+    .pd-r {
+
+        padding-bottom: 5%;
+     }
+
+    p#hello,
+p#tech_used,
+p#contact_me{
+    font-size: 1.5em;
+}
+
+    .txt-1{
+        text-align: justify!important;
+    }
+
+    .tts{
+        font-size: 3em;
+    }
+
+    .carousel-inner{
+        height: 300px;
+    }
+    ul#myTab{
+        height: 10vh;
+    }
+
+    a.ss{
+        line-height: 1;
+    }
+    /* 
+    .left-column{
+        padding: 
+    } */
+
+   
+
+    .avatar-img {
+        border-radius: 50%;
+        margin: 0;
+    }
+
+    .letts {
+        width: 10%;
+    }
+
+    .left-column {
+        height: auto;
+    }
+
+    .avatar-img {
+        width: 50%;
+    }
+
+    #myTab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    ul#myTab {
+        flex-wrap: unset;
+        width: 100%;
+    }
+
+    .nav-link.ss {
+        padding: unset;
+    }
+
+    .txt-contact{
+        font-size: 1em;
+    }
+
+
+
+}
+
+
+img.skills-info {
+    position: relative;
+}
