@@ -279,12 +279,28 @@ p#contacts {
     height: 40px;
 }
 
-.logo-brand-ck>img{
+.logo-brand-ck>img {
     width: 250px;
     height: 40px;
 }
 
-.logo-brand-rapso{
+#projects {
+    text-align: center;
+}
+
+a.txt-1{
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.behance {
+    width: 75vw;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.logo-brand-rapso {
     text-align: center;
     background-color: antiquewhite;
 }
@@ -451,17 +467,22 @@ a.demo:hover {
     width: 100%;
 }
 
-.carousel-inner{
+.carousel-inner {
     height: 500px;
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .carousel-inner{
+    .behance {
+        width: 75vw;
+    }
+
+    .carousel-inner {
         height: 400px;
     }
+
     .f-size {
-        font-size: 10px!important;
+        font-size: 10px !important;
     }
 
     h2#txt-dev {
@@ -480,26 +501,30 @@ a.demo:hover {
 
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .f-size {
-        font-size: 14px!important;
+    .behance {
+        width: 100vw;
     }
 
-    ul#myTab{
+    .f-size {
+        font-size: 14px !important;
+    }
+
+    ul#myTab {
         height: 10vh;
     }
 
-    a.ss{
+    a.ss {
         line-height: 1;
     }
 
-    li.nav-item{
+    li.nav-item {
         margin-left: 5%;
-    margin-right: 5%;
+        margin-right: 5%;
     }
 
     .pd-r {
 
-       padding-bottom: 5%;
+        padding-bottom: 5%;
     }
 }
 
@@ -507,50 +532,54 @@ a.demo:hover {
 
 @media (min-width: 320px) and (max-width: 767px) {
 
-    li.nav-item{
+    li.nav-item {
         margin-left: 1%;
-    margin-right: 3%;
+        margin-right: 3%;
     }
 
     .f-size {
-        font-size: 10px!important;
+        font-size: 10px !important;
     }
 
     .pd-r {
 
         padding-bottom: 5%;
-     }
-
-    p#hello,
-p#tech_used,
-p#contact_me{
-    font-size: 1.5em;
-}
-
-    .txt-1{
-        text-align: justify!important;
     }
 
-    .tts{
+    p#hello,
+    p#tech_used,
+    p#contact_me {
+        font-size: 1.5em;
+    }
+
+    .txt-1 {
+        text-align: justify !important;
+    }
+
+    .tts {
         font-size: 3em;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         height: 300px;
     }
-    ul#myTab{
+
+    ul#myTab {
         height: 10vh;
     }
 
-    a.ss{
+    a.ss {
         line-height: 1;
     }
+
     /* 
     .left-column{
         padding: 
     } */
+    .behance {
+        width: 100vw;
+    }
 
-   
 
     .avatar-img {
         border-radius: 50%;
@@ -586,7 +615,7 @@ p#contact_me{
         padding: unset;
     }
 
-    .txt-contact{
+    .txt-contact {
         font-size: 1em;
     }
 
